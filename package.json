@@ -24,7 +24,7 @@
 		"format:cc": "find . -name \"*.cc\" -exec clang-format -i {} \\;",
 		"format:all": "find . \\( -name \"*.cc\" -o -name \"*.cpp\" -o -name \"*.h\" \\) -exec clang-format -i {} \\;",
 		"format": "find . \\( -name \"*.cc\" -o -name \"*.cpp\" -o -name \"*.h\" \\) -exec clang-format -i {} \\; && eslint . --fix",
-		"setupTextFiles": "mkdir textfiles && cd textfiles && wget https://norvig.com/ngrams/enable1.txt && wget https://raw.githubusercontent.com/ScriptSmith/topwords/master/words.txt && wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/badwordslist/badwords.txt && wget https://raw.githubusercontent.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/terms.txt/refs/heads/master/terms.txt",
+		"setupTextFiles": "mkdir textfiles && cd textfiles && wget https://norvig.com/ngrams/enable1.txt && wget https://raw.githubusercontent.com/ScriptSmith/topwords/master/words.txt && wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/badwordslist/badwords.txt && wget https://raw.githubusercontent.com/grmlqSOTFTtk/terms.txt/refs/heads/master/terms.txt",
 		"prebuildify": "prebuildify --napi --strip",
 		"benchmark:filestream": "tsx benchmarks/filestream.ts",
 		"benchmark": "tsx benchmarks/benchmark.ts",
@@ -45,10 +45,10 @@
 	"description": "A trie library for JavaScript with C++ bindings.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/seshat.git"
+		"url": "git+https://github.com/grmlqSOTFTtk/seshat.git"
 	},
-	"homepage": "https://github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/seshat",
-	"bugs": "https://github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/seshat/issues",
+	"homepage": "https://github.com/grmlqSOTFTtk/seshat",
+	"bugs": "https://github.com/grmlqSOTFTtk/seshat/issues",
 	"engines": {
 		"node": ">=18"
 	},
